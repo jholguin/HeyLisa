@@ -1,0 +1,20 @@
+{
+  "name": "heylisa",
+  "version": "0.0.1",
+  "authors": [
+    "jholguin <josh.holguin@springbox.com>"
+  ],
+  "description": "Hey Lisa Site for finding information on events according to Lisa!",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "modernizr": "~2.7.2",
+    "normalize.css": "~3.0.1"
+  }
+}

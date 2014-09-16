@@ -1,0 +1,18 @@
+{
+  "name": "heylisa",
+  "version": "0.0.0",
+  "description": "Lisa Blackwell and Mike Rubinov site to display events in the austin area",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Holguin",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-compass": "~0.7.2",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-autoprefixer": "~0.7.3"
+  }
+}
