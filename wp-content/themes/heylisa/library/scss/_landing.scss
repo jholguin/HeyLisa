@@ -7,23 +7,25 @@
 .event-title{
 	text-align: center;
 	padding:10px 0;
+	display:none;
 }
 
 .description{
 	line-height: 1.5;
+	opacity:0;
 	
 
 	&.bubble 
 	{
 		position: relative;
-		width: 250px;
-		height: 120px;
+		width: 30%;
 		padding: 6px;
 		background: #FFFFFF;
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 		border-radius: 20px;
 		border: #7F7F7F solid 4px;
+
 
 		&:after 
 		{
@@ -78,6 +80,7 @@ figure{
 }
 
 .details{
+	opacity:0;
 	li{
 		list-style:none;
 		padding:10px 0;

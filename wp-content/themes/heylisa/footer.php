@@ -15,7 +15,11 @@
 		(function($){
 			$('figure a').on('click',function(e){
 				e.preventDefault();
-				$(this).addClass('animate');
+				$('.description,.details').animate({
+					opacity: 1
+				}, 500);
+				$('.event-title').slideDown();
+				//$(this).addClass('animate');
 			});
 		})(jQuery);
 	</script>

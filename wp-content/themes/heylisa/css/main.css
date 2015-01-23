@@ -449,6 +449,11 @@ header h1 {
   font-family: 'comic_neue_angularbold', serif;
   text-transform: uppercase;
   text-align: center;
+  background: url("../images/HeyLisaBanner.jpg") no-repeat top center;
+  text-indent: -9999px;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+  padding-bottom: 20%;
 }
 
 /* line 1, ../library/scss/_landing.scss */
@@ -462,23 +467,24 @@ header h1 {
 .event-title {
   text-align: center;
   padding: 10px 0;
+  display: none;
 }
 
-/* line 12, ../library/scss/_landing.scss */
+/* line 13, ../library/scss/_landing.scss */
 .description {
   line-height: 1.5;
+  opacity: 0;
 }
-/* line 16, ../library/scss/_landing.scss */
+/* line 18, ../library/scss/_landing.scss */
 .description.bubble {
   position: relative;
-  width: 250px;
-  height: 120px;
+  width: 30%;
   padding: 6px;
   background: #FFFFFF;
   border-radius: 20px;
   border: #7F7F7F solid 4px;
 }
-/* line 28, ../library/scss/_landing.scss */
+/* line 30, ../library/scss/_landing.scss */
 .description.bubble:after {
   content: '';
   position: absolute;
@@ -491,7 +497,7 @@ header h1 {
   right: -50px;
   top: 99px;
 }
-/* line 42, ../library/scss/_landing.scss */
+/* line 44, ../library/scss/_landing.scss */
 .description.bubble:before {
   content: '';
   position: absolute;
@@ -505,18 +511,18 @@ header h1 {
   top: 96px;
 }
 
-/* line 60, ../library/scss/_landing.scss */
+/* line 62, ../library/scss/_landing.scss */
 figure {
   margin: 0;
 }
-/* line 62, ../library/scss/_landing.scss */
+/* line 64, ../library/scss/_landing.scss */
 figure a {
   display: block;
   max-width: 628px;
   max-height: 612px;
   margin: 0 auto;
 }
-/* line 69, ../library/scss/_landing.scss */
+/* line 71, ../library/scss/_landing.scss */
 figure a.animate {
   -webkit-transition: -webkit-transform 1s linear, opacity 1s linear;
   transition: transform 1s linear, opacity 1s linear;
@@ -525,17 +531,21 @@ figure a.animate {
   transform: rotate(360deg) scale(0.5);
   opacity: .3;
 }
-/* line 75, ../library/scss/_landing.scss */
+/* line 77, ../library/scss/_landing.scss */
 figure img {
   width: 100%;
 }
 
-/* line 81, ../library/scss/_landing.scss */
+/* line 82, ../library/scss/_landing.scss */
+.details {
+  opacity: 0;
+}
+/* line 84, ../library/scss/_landing.scss */
 .details li {
   list-style: none;
   padding: 10px 0;
 }
-/* line 84, ../library/scss/_landing.scss */
+/* line 87, ../library/scss/_landing.scss */
 .details li strong {
   display: inline-block;
   width: 100px;
@@ -545,16 +555,16 @@ figure img {
 body {
   font-family: 'Cabin', serif;
   font-weight: 400;
-  background: #dfe144;
+  background: #009CC5;
 }
 
-/* line 12, ../library/scss/main.scss */
+/* line 13, ../library/scss/main.scss */
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* line 17, ../library/scss/main.scss */
+/* line 18, ../library/scss/main.scss */
 ul {
   padding: 0;
   margin: 0;
